@@ -8,6 +8,7 @@
 import UIKit
 import Calculator_framework
 import CalcPackUno
+import Logging
 
 class ViewController: UIViewController {
     var textFieldValX = UITextField()
@@ -18,6 +19,7 @@ class ViewController: UIViewController {
     var labelResultValue = UILabel()
     var c: Calculator = Calculator()
     var calcUno = CalculatorUno()
+    let logger = Logger(label: "com.example.BestExampleApp.main")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -73,6 +75,8 @@ class ViewController: UIViewController {
     }
     
     @objc func calculateValue() {
+        
+        logger.info("Hello World!")
         
         guard let xVal = Int(textFieldValX.text ?? "") else { return }
         guard let yVal = Int(textFieldValY.text ?? "") else { return }

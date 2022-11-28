@@ -16,6 +16,7 @@
 		9BE460FE292F1B7200925A53 /* Calculator_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE460FD292F1B7200925A53 /* Calculator_framework.framework */; };
 		9BE460FF292F1B7200925A53 /* Calculator_framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE460FD292F1B7200925A53 /* Calculator_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9BE58DCE2932DF330050817F /* CalcPackUno in Frameworks */ = {isa = PBXBuildFile; productRef = 9BE58DCD2932DF330050817F /* CalcPackUno */; };
+		9BF24C2929353CF30041C135 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 9BF24C2829353CF30041C135 /* Logging */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF24C2929353CF30041C135 /* Logging in Frameworks */,
 				9BE460FE292F1B7200925A53 /* Calculator_framework.framework in Frameworks */,
 				9BE58DCE2932DF330050817F /* CalcPackUno in Frameworks */,
 			);
@@ -115,6 +117,7 @@
 			name = "Calculator-iOS";
 			packageProductDependencies = (
 				9BE58DCD2932DF330050817F /* CalcPackUno */,
+				9BF24C2829353CF30041C135 /* Logging */,
 			);
 			productName = "Calculator-iOS";
 			productReference = 9BE460E3292F175500925A53 /* Calculator-iOS.app */;
@@ -146,6 +149,7 @@
 			mainGroup = 9BE460DA292F175500925A53;
 			packageReferences = (
 				9BE58DCC2932DF330050817F /* XCRemoteSwiftPackageReference "CalcPackUno" */,
+				9BF24C2729353CF30041C135 /* XCRemoteSwiftPackageReference "swift-log" */,
 			);
 			productRefGroup = 9BE460E4292F175500925A53 /* Products */;
 			projectDirPath = "";
@@ -404,6 +408,14 @@
 				revision = 58e69a94419e15c87f5ffe719b39173747726f3d;
 			};
 		};
+		9BF24C2729353CF30041C135 /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -411,6 +423,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9BE58DCC2932DF330050817F /* XCRemoteSwiftPackageReference "CalcPackUno" */;
 			productName = CalcPackUno;
+		};
+		9BF24C2829353CF30041C135 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BF24C2729353CF30041C135 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
