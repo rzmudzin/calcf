@@ -7,6 +7,7 @@
 
 import UIKit
 import Calculator_framework
+import CalcPackUno
 
 class ViewController: UIViewController {
     var textFieldValX = UITextField()
@@ -16,6 +17,7 @@ class ViewController: UIViewController {
     var labelResult = UILabel()
     var labelResultValue = UILabel()
     var c: Calculator = Calculator()
+    var calcUno = CalculatorUno()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -78,6 +80,14 @@ class ViewController: UIViewController {
         let result = c.multiply(xVal, with: yVal)
         print("Result: \(result)")
         labelResultValue.text = "\(result)"
+    }
+    
+    func addTwoNumbers() {
+        
+    }
+    
+    func multiplyTwoNumbers() {
+        
     }
 
 }

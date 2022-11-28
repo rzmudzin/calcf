@@ -1,0 +1,13 @@
+{
+  "pins" : [
+    {
+      "identity" : "calcpackuno",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rzmudzin/CalcPackUno.git",
+      "state" : {
+        "revision" : "58e69a94419e15c87f5ffe719b39173747726f3d"
+      }
+    }
+  ],
+  "version" : 2
+}

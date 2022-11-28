@@ -15,6 +15,7 @@
 		9BE460F3292F175600925A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE460F1292F175600925A53 /* LaunchScreen.storyboard */; };
 		9BE460FE292F1B7200925A53 /* Calculator_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE460FD292F1B7200925A53 /* Calculator_framework.framework */; };
 		9BE460FF292F1B7200925A53 /* Calculator_framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE460FD292F1B7200925A53 /* Calculator_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9BE58DCE2932DF330050817F /* CalcPackUno in Frameworks */ = {isa = PBXBuildFile; productRef = 9BE58DCD2932DF330050817F /* CalcPackUno */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BE460FE292F1B7200925A53 /* Calculator_framework.framework in Frameworks */,
+				9BE58DCE2932DF330050817F /* CalcPackUno in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +113,9 @@
 			dependencies = (
 			);
 			name = "Calculator-iOS";
+			packageProductDependencies = (
+				9BE58DCD2932DF330050817F /* CalcPackUno */,
+			);
 			productName = "Calculator-iOS";
 			productReference = 9BE460E3292F175500925A53 /* Calculator-iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -139,6 +144,9 @@
 				Base,
 			);
 			mainGroup = 9BE460DA292F175500925A53;
+			packageReferences = (
+				9BE58DCC2932DF330050817F /* XCRemoteSwiftPackageReference "CalcPackUno" */,
+			);
 			productRefGroup = 9BE460E4292F175500925A53 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -386,6 +394,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9BE58DCC2932DF330050817F /* XCRemoteSwiftPackageReference "CalcPackUno" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rzmudzin/CalcPackUno.git";
+			requirement = {
+				kind = revision;
+				revision = 58e69a94419e15c87f5ffe719b39173747726f3d;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9BE58DCD2932DF330050817F /* CalcPackUno */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BE58DCC2932DF330050817F /* XCRemoteSwiftPackageReference "CalcPackUno" */;
+			productName = CalcPackUno;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9BE460DB292F175500925A53 /* Project object */;
 }
