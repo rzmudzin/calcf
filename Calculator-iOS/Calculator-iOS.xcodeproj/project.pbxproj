@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B73A5D92935796900464675 /* CalcPackTres in Frameworks */ = {isa = PBXBuildFile; productRef = 9B73A5D82935796900464675 /* CalcPackTres */; };
 		9BE460E7292F175500925A53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE460E6292F175500925A53 /* AppDelegate.swift */; };
 		9BE460E9292F175500925A53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE460E8292F175500925A53 /* SceneDelegate.swift */; };
 		9BE460EB292F175500925A53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE460EA292F175500925A53 /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B73A5D92935796900464675 /* CalcPackTres in Frameworks */,
 				9BF24C2929353CF30041C135 /* Logging in Frameworks */,
 				9BE460FE292F1B7200925A53 /* Calculator_framework.framework in Frameworks */,
 				9BE58DCE2932DF330050817F /* CalcPackUno in Frameworks */,
@@ -118,6 +120,7 @@
 			packageProductDependencies = (
 				9BE58DCD2932DF330050817F /* CalcPackUno */,
 				9BF24C2829353CF30041C135 /* Logging */,
+				9B73A5D82935796900464675 /* CalcPackTres */,
 			);
 			productName = "Calculator-iOS";
 			productReference = 9BE460E3292F175500925A53 /* Calculator-iOS.app */;
@@ -150,6 +153,7 @@
 			packageReferences = (
 				9BE58DCC2932DF330050817F /* XCRemoteSwiftPackageReference "CalcPackUno" */,
 				9BF24C2729353CF30041C135 /* XCRemoteSwiftPackageReference "swift-log" */,
+				9B73A5D72935796900464675 /* XCRemoteSwiftPackageReference "calcpacktres" */,
 			);
 			productRefGroup = 9BE460E4292F175500925A53 /* Products */;
 			projectDirPath = "";
@@ -400,6 +404,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		9B73A5D72935796900464675 /* XCRemoteSwiftPackageReference "calcpacktres" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitlab.com/rzmudzin1/calcpacktres.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		9BE58DCC2932DF330050817F /* XCRemoteSwiftPackageReference "CalcPackUno" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rzmudzin/CalcPackUno.git";
@@ -419,6 +431,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9B73A5D82935796900464675 /* CalcPackTres */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B73A5D72935796900464675 /* XCRemoteSwiftPackageReference "calcpacktres" */;
+			productName = CalcPackTres;
+		};
 		9BE58DCD2932DF330050817F /* CalcPackUno */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9BE58DCC2932DF330050817F /* XCRemoteSwiftPackageReference "CalcPackUno" */;

@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "calcpacktres",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitlab.com/rzmudzin1/calcpacktres.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e5402f1e0c456f92f51b9b45f6d2131a8f458aed"
+      }
+    },
+    {
       "identity" : "calcpackuno",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rzmudzin/CalcPackUno.git",
