@@ -8,6 +8,7 @@
 import UIKit
 import Calculator_framework
 import CalcPackUno
+import CalcPackTres
 import Logging
 
 class ViewController: UIViewController {
@@ -19,6 +20,7 @@ class ViewController: UIViewController {
     var labelResultValue = UILabel()
     var c: Calculator = Calculator()
     var calcUno = CalculatorUno()
+    var calcTres = CalculatorTres()
     let logger = Logger(label: "com.example.BestExampleApp.main")
     
     override func viewDidLoad() {

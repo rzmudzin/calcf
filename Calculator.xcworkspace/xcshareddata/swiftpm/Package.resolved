@@ -1,11 +1,21 @@
 {
   "pins" : [
     {
+      "identity" : "calcpacktres",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rzmudzin/CalcPackTres.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e5402f1e0c456f92f51b9b45f6d2131a8f458aed"
+      }
+    },
+    {
       "identity" : "calcpackuno",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/rzmudzin/CalcPackUno.git",
+      "location" : "https://phxroberts@bitbucket.org/phxroberts/calcpackuno.git",
       "state" : {
-        "revision" : "58e69a94419e15c87f5ffe719b39173747726f3d"
+        "branch" : "main",
+        "revision" : "0e6e10acf4f155e644ea333048586d28fa661da4"
       }
     },
     {
