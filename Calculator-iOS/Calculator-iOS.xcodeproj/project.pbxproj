@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B73A5DC2935805000464675 /* CalcPackTres in Frameworks */ = {isa = PBXBuildFile; productRef = 9B73A5DB2935805000464675 /* CalcPackTres */; };
 		9B73A5DF2935808700464675 /* CalcPackUno in Frameworks */ = {isa = PBXBuildFile; productRef = 9B73A5DE2935808700464675 /* CalcPackUno */; };
 		9BE460E7292F175500925A53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE460E6292F175500925A53 /* AppDelegate.swift */; };
 		9BE460E9292F175500925A53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE460E8292F175500925A53 /* SceneDelegate.swift */; };
@@ -51,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B73A5DC2935805000464675 /* CalcPackTres in Frameworks */,
 				9BF24C2929353CF30041C135 /* Logging in Frameworks */,
 				9BE460FE292F1B7200925A53 /* Calculator_framework.framework in Frameworks */,
 				9B73A5DF2935808700464675 /* CalcPackUno in Frameworks */,
@@ -119,7 +117,6 @@
 			name = "Calculator-iOS";
 			packageProductDependencies = (
 				9BF24C2829353CF30041C135 /* Logging */,
-				9B73A5DB2935805000464675 /* CalcPackTres */,
 				9B73A5DE2935808700464675 /* CalcPackUno */,
 			);
 			productName = "Calculator-iOS";
@@ -152,8 +149,8 @@
 			mainGroup = 9BE460DA292F175500925A53;
 			packageReferences = (
 				9BF24C2729353CF30041C135 /* XCRemoteSwiftPackageReference "swift-log" */,
-				9B73A5DA2935805000464675 /* XCRemoteSwiftPackageReference "CalcPackTres" */,
 				9B73A5DD2935808700464675 /* XCRemoteSwiftPackageReference "calcpackuno" */,
+				9BE9A6522939395200DFD89E /* XCRemoteSwiftPackageReference "CalcPackTres" */,
 			);
 			productRefGroup = 9BE460E4292F175500925A53 /* Products */;
 			projectDirPath = "";
@@ -404,17 +401,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9B73A5DA2935805000464675 /* XCRemoteSwiftPackageReference "CalcPackTres" */ = {
+		9B73A5DD2935808700464675 /* XCRemoteSwiftPackageReference "calcpackuno" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rzmudzin/CalcPackTres.git";
+			repositoryURL = "https://phxroberts@bitbucket.org/phxroberts/calcpackuno.git";
 			requirement = {
 				branch = main;
 				kind = branch;
 			};
 		};
-		9B73A5DD2935808700464675 /* XCRemoteSwiftPackageReference "calcpackuno" */ = {
+		9BE9A6522939395200DFD89E /* XCRemoteSwiftPackageReference "CalcPackTres" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://phxroberts@bitbucket.org/phxroberts/calcpackuno.git";
+			repositoryURL = "https://github.com/robzmud/CalcPackTres.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -431,11 +428,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9B73A5DB2935805000464675 /* CalcPackTres */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9B73A5DA2935805000464675 /* XCRemoteSwiftPackageReference "CalcPackTres" */;
-			productName = CalcPackTres;
-		};
 		9B73A5DE2935808700464675 /* CalcPackUno */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9B73A5DD2935808700464675 /* XCRemoteSwiftPackageReference "calcpackuno" */;

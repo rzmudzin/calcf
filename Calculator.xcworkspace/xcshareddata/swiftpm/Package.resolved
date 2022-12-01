@@ -1,12 +1,21 @@
 {
   "pins" : [
     {
-      "identity" : "calcpacktres",
+      "identity" : "calcpackdos",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/rzmudzin/CalcPackTres.git",
+      "location" : "https://github.com/robzmud/CalcPackDos.git",
       "state" : {
         "branch" : "main",
-        "revision" : "e5402f1e0c456f92f51b9b45f6d2131a8f458aed"
+        "revision" : "b1d92c48b196e49d1340d9f1e1f139a6fbd17f68"
+      }
+    },
+    {
+      "identity" : "calcpacktres",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/robzmud/CalcPackTres.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "999729f57eda429bf2323a0212c8978524ae0e1a"
       }
     },
     {
@@ -16,6 +25,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "0e6e10acf4f155e644ea333048586d28fa661da4"
+      }
+    },
+    {
+      "identity" : "sqlite.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephencelis/SQLite.swift.git",
+      "state" : {
+        "revision" : "4d543d811ee644fa4cc4bfa0be996b4dd6ba0f54",
+        "version" : "0.13.3"
       }
     },
     {
