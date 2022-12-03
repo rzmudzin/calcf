@@ -7,7 +7,7 @@
 
 import UIKit
 import Calculator_framework
-import CalcPackUno
+//import CalcPackUno
 import CalcPackTres
 import CalcStuff
 import Logging
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     var labelResult = UILabel()
     var labelResultValue = UILabel()
     var c: Calculator = Calculator()
-    var calcUno = CalculatorUno()
+//    var calcUno = CalculatorUno()
     var calcTres = CalculatorTres()
     var calcStuff = CalcStuffCalculator()
     let logger = Logger(label: "com.example.BestExampleApp.main")

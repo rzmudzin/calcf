@@ -21,10 +21,10 @@
     {
       "identity" : "calcpackuno",
       "kind" : "remoteSourceControl",
-      "location" : "https://phxroberts@bitbucket.org/phxroberts/calcpackuno.git",
+      "location" : "https://github.com/rzmudzin/CalcPackUno.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "0e6e10acf4f155e644ea333048586d28fa661da4"
+        "revision" : "0e6e10acf4f155e644ea333048586d28fa661da4",
+        "version" : "1.0.0"
       }
     },
     {
